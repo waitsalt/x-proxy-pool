@@ -1,0 +1,10 @@
+/home/x/tmp/test_2/target/debug/deps/liboverload-4adf788bf038356f.rmeta: /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/overload-0.1.1/src/lib.rs /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/overload-0.1.1/src/unary.rs /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/overload-0.1.1/src/assignment.rs /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/overload-0.1.1/src/binary.rs
+
+/home/x/tmp/test_2/target/debug/deps/liboverload-4adf788bf038356f.rlib: /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/overload-0.1.1/src/lib.rs /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/overload-0.1.1/src/unary.rs /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/overload-0.1.1/src/assignment.rs /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/overload-0.1.1/src/binary.rs
+
+/home/x/tmp/test_2/target/debug/deps/overload-4adf788bf038356f.d: /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/overload-0.1.1/src/lib.rs /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/overload-0.1.1/src/unary.rs /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/overload-0.1.1/src/assignment.rs /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/overload-0.1.1/src/binary.rs
+
+/home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/overload-0.1.1/src/lib.rs:
+/home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/overload-0.1.1/src/unary.rs:
+/home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/overload-0.1.1/src/assignment.rs:
+/home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/overload-0.1.1/src/binary.rs:
