@@ -1,7 +1,14 @@
 [package]
-name = "test_2"
+name = "x-proxy-pool"
 version = "0.1.0"
 edition = "2024"
+
+[profile.release]
+codegen-units = 1 # 减少并行代码生成以提升优化效果
+lto = "thin"      # 链接时优化
+opt-level = 3     # 最高级别优化
+panic = "abort"   # 替换 panic 为 abort 减少二进制大小
+strip = true      # 自动剔除调试符号（或用 `strip` 手动处理）
 
 [dependencies]
 anyhow = "1.0.98"

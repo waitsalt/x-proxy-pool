@@ -1,9 +1,0 @@
-/home/x/tmp/test_2/target/debug/deps/libsocket2-6c80d6d846a6aecf.rmeta: /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/socket2-0.5.10/src/lib.rs /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/socket2-0.5.10/src/sockaddr.rs /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/socket2-0.5.10/src/socket.rs /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/socket2-0.5.10/src/sockref.rs /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/socket2-0.5.10/src/sys/unix.rs
-
-/home/x/tmp/test_2/target/debug/deps/socket2-6c80d6d846a6aecf.d: /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/socket2-0.5.10/src/lib.rs /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/socket2-0.5.10/src/sockaddr.rs /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/socket2-0.5.10/src/socket.rs /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/socket2-0.5.10/src/sockref.rs /home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/socket2-0.5.10/src/sys/unix.rs
-
-/home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/socket2-0.5.10/src/lib.rs:
-/home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/socket2-0.5.10/src/sockaddr.rs:
-/home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/socket2-0.5.10/src/socket.rs:
-/home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/socket2-0.5.10/src/sockref.rs:
-/home/general/.env/cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-4dc01642fd091eda/socket2-0.5.10/src/sys/unix.rs:

@@ -1248,24 +1248,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "test_2"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "httparse",
- "hyper",
- "indicatif",
- "once_cell",
- "reqwest",
- "serde",
- "serde_json",
- "tokio",
- "toml",
- "tracing",
- "tracing-subscriber",
-]
-
-[[package]]
 name = "thiserror"
 version = "1.0.69"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1920,6 +1902,24 @@ name = "writeable"
 version = "0.6.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ea2f10b9bb0928dfb1b42b65e1f9e36f7f54dbdf08457afefb38afcdec4fa2bb"
+
+[[package]]
+name = "x-proxy-pool"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "httparse",
+ "hyper",
+ "indicatif",
+ "once_cell",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "tokio",
+ "toml",
+ "tracing",
+ "tracing-subscriber",
+]
 
 [[package]]
 name = "yoke"

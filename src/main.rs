@@ -1,12 +1,12 @@
 use anyhow::Result;
-use test_2::{
+use tokio::signal;
+use tracing::{error, info};
+use x_proxy_pool::{
     common::{self, config::CONFIG},
     protocol::{http::http_proxy, model::Protocol, socks5::socks5_proxy},
     proxy::{self, model::PROXY_POOL},
     util::check_proxy_protocol,
 };
-use tokio::signal;
-use tracing::{error, info};
 
 #[tokio::main]
 async fn main() -> Result<()> {
