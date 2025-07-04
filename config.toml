@@ -1,0 +1,16 @@
+[server]
+name = "proxy_pool"
+host = "127.0.0.1"
+port = 9000
+
+[logger]
+level = "info"
+
+[proxy]
+proxy_file = "proxy.txt"
+timeout = 3000
+health_check_interval = 60
+retry_count = 3
+auto_switch = true
+auto_switch_interval = 300
+max_test_count = 200

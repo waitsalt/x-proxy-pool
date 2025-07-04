@@ -45,12 +45,14 @@ impl Proxy {
             let host = parts[1].to_string().split_off(2);
             let port = parts[2].parse().unwrap_or(80);
             return Ok(Proxy { scheme, host, port });
-        } else if length == 2 {
-            let scheme = Protocol::Http;
-            let host = parts[0].to_string();
-            let port = parts[1].parse().unwrap_or(80);
-            return Ok(Proxy { scheme, host, port });
-        } else {
+        }
+        // else if length == 2 {
+        //     let scheme = Protocol::Http;
+        //     let host = parts[0].to_string();
+        //     let port = parts[1].parse().unwrap_or(80);
+        //     return Ok(Proxy { scheme, host, port });
+        // }
+        else {
             return Err(anyhow::anyhow!(
                 "期待的格式为: scheme://host:port 或 host:port"
             ));
@@ -79,13 +81,13 @@ impl Proxy {
 
         let res = timeout(
             Duration::from_millis(CONFIG.proxy.timeout as u64),
-            client.get("https://api.ipify.org").send(),
+            client.get("1").send(),
         )
         .await??;
 
         let res = res.text().await?;
 
-        if res == self.host {
+        if res != "157.245.180.34" {
             // info!("节点测试成功: {}", self.show());
             Ok(true)
         } else {
@@ -131,6 +133,18 @@ impl ProxyPool {
             let proxy = if let Ok(proxy) = Proxy::from(&proxy) {
                 proxy
             } else {
+                if let Ok(proxy) = Proxy::from(&format!("socks5://{}", proxy)) {
+                    match proxy.scheme {
+                        Protocol::Http => http_proxy_pool.push(proxy),
+                        Protocol::Socks5 => socks5_proxy_pool.push(proxy),
+                    }
+                };
+                if let Ok(proxy) = Proxy::from(&format!("http://{}", proxy)) {
+                    match proxy.scheme {
+                        Protocol::Http => http_proxy_pool.push(proxy),
+                        Protocol::Socks5 => socks5_proxy_pool.push(proxy),
+                    }
+                };
                 continue;
             };
             match proxy.scheme {

@@ -80,7 +80,6 @@ where
 
     // 读取端口
     let port = reader.read_u16().await?;
-    let _target = format!("{}:{}", target_addr, port);
 
     // 获取代理
     let mut upstream = match tokio::net::TcpStream::connect(proxy.address()).await {
